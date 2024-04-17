@@ -1,0 +1,149 @@
+body {
+    padding: 200px;
+    background-color: black;
+}
+
+.boxes {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: grid;
+    background-color: white;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 35px;
+    row-gap: 20px;
+    /* gap: 20px; */
+    grid-template-areas: "box1 box2 box3 box4"
+                         "box1 box2 box3 box4"
+                         "box1 box2 box3 box4"
+                         "box1 box2 box3 box4"
+                         "box1 box5 box3 box4"
+                         "box1 box5 box6 box4"
+                         "box1 box5 box6 box7"
+                         "box1 box5 box6 box7"
+                         "box1 box8 box6 box7"
+                         "box1 box8 box9 box7"
+                         "box1 box8 box9 box7"
+                         "box1 box8 box9 box7"
+                         "box1 box8 box9 box10"
+  
+}
+
+
+
+.box1 {
+    grid-area: box1;
+}
+/* .box1 #img1{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 30px;
+} */
+
+.box2 {
+    grid-area: box2;
+}
+/* .box2 #img2{
+        width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 30px;
+}
+ */
+.box3 {
+    grid-area: box3;
+}
+/* .box3 #img3{
+    width: 100%; 
+height: 100%; 
+object-fit: cover;
+border-radius: 30px;
+
+} */
+
+.box4 {
+    grid-area: box4;
+}
+/* .box4 #img4{
+    width: 100%; 
+height: 100%; 
+object-fit: cover;
+border-radius: 30px;
+} */
+
+.box5 {
+    grid-area: box5;
+}
+/* .box5 #img5{
+    width: 100%;
+height: 100%; 
+object-fit: cover;
+border-radius: 30px;
+} */
+
+.box6 {
+    grid-area: box6;
+}
+/* .box6 #img6{
+    width: 100%;
+height: 100%; 
+object-fit: cover;
+border-radius: 30px;
+} */
+
+.box7 {
+    grid-area: box7;
+}
+/* .box7 #img7{
+    width: 100%;
+height: 100%; 
+object-fit: cover;
+border-radius: 30px;
+} */
+
+.box8 {
+    grid-area: box8;
+}
+/* .box8 #img8{
+    width: 100%;
+height: 100%; 
+object-fit: cover;
+border-radius: 30px;
+} */
+
+.box9 {
+    grid-area: box9;
+}
+/* .box9 #img9{
+    width: 100%;
+height: 100%; 
+object-fit: cover;
+border-radius: 30px;
+} */
+
+/* .box1 .image, .box2 .image, .box3 .image,.box4 .image,.box5 .image,.box6 .image,.box7 .image,.box8 .image,.box9  .image{
+
+} */
+.image{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.box10 {
+    grid-area: box10;
+    background-color: purple;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 30px;
+}
+/* .box10 #img10{
+    width: 100%;
+height: 100%; 
+object-fit: cover;
+} */
